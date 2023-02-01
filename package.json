@@ -12,11 +12,13 @@
     "@hookform/resolvers": "^2.9.10",
     "@ignite-ui/react": "^2.2.4",
     "@next/font": "13.1.6",
+    "@prisma/client": "^4.9.0",
     "@types/node": "18.11.18",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
     "@typescript-eslint/eslint-plugin": "^5.48.2",
     "@typescript-eslint/parser": "^5.48.2",
+    "axios": "^1.3.0",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
     "eslint-config-prettier": "^8.6.0",
@@ -26,6 +28,7 @@
     "eslint-plugin-react": "^7.32.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "next": "13.1.6",
+    "nookies": "^2.5.2",
     "phosphor-react": "^1.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -34,6 +37,8 @@
     "zod": "^3.20.2"
   },
   "devDependencies": {
-    "prettier": "^2.8.3"
+    "@types/cookie": "^0.5.1",
+    "prettier": "^2.8.3",
+    "prisma": "^4.9.0"
   }
 }
