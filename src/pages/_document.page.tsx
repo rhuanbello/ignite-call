@@ -6,7 +6,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-
+        <title>Ignite Call</title>
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
@@ -21,6 +21,8 @@ export default function Document() {
           id="stitches"
           dangerouslySetInnerHTML={{ __html: getCssText() }}
         />
+
+        <link rel="icon" type="image/png" sizes="32x32" href="/logo.png" />
       </Head>
       <body>
         <Main />
