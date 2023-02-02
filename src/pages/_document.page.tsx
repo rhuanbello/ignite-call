@@ -6,7 +6,6 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <title>Ignite Call</title>
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
