@@ -12,6 +12,7 @@ import {
 import { ArrowRight } from 'phosphor-react';
 import { z } from 'zod';
 
+import { api } from '../../../lib/axios';
 import { convertTimeStringToMinutes } from '../../../utils/convertTimeStringToMinutes';
 import { getWeekDays } from '../../../utils/getWeekDays';
 import { Container, Header } from '../styles';
@@ -130,7 +131,9 @@ export default function TimeIntervals() {
   });
 
   async function handleSetTimeIntervals(data: any) {
-    const formData = data as TimeIntervalsFormOutput;
+    const { intervals } = data as TimeIntervalsFormOutput;
+
+    await api.post('/users/time-intervals', { intervals });
   }
 
   return (
