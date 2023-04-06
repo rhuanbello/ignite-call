@@ -1,4 +1,4 @@
-import { NextApiRequest, NextApiResponse } from 'next';
+import { NextApiRequest, NextApiResponse, NextPageContext } from 'next';
 import { Adapter } from 'next-auth/adapters';
 import { parseCookies, destroyCookie } from 'nookies';
 
