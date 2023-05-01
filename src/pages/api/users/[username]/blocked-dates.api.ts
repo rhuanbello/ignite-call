@@ -1,4 +1,3 @@
-import dayjs from 'dayjs';
 import { NextApiRequest, NextApiResponse } from 'next';
 
 import { prisma } from '../../../../lib/prisma';
@@ -26,8 +25,6 @@ export default async function handle(
   if (!user) {
     return res.status(400).json({ message: 'User does not exist.' });
   }
-
-  console.log('user', user);
 
   const availableWeekDays = await prisma.userTimeInterval.findMany({
     select: {

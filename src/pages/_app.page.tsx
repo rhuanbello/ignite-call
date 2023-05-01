@@ -3,7 +3,6 @@ import { QueryClientProvider } from '@tanstack/react-query';
 import { SessionProvider } from 'next-auth/react';
 import { DefaultSeo } from 'next-seo';
 import type { AppProps } from 'next/app';
-import Head from 'next/head';
 
 import { queryClient } from '../lib/react-query';
 import { globalStyles } from '../styles/global';
